@@ -1,1 +1,107 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px; /* Default font size */
+    scroll-behavior: smooth; /* Smooth scrolling */
+}
+
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #2a3447;
+    color: white;
+    /* 
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9; 
+    */
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+/* 
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+} 
+*/
+
+/* 
+button {
+    font-family: inherit;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    opacity: 0.9;
+} 
+*/
+
+/* 
+input, textarea, select {
+    font-family: inherit;
+    outline: none;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.2);
+} 
+*/
+
+/* Utility Classes */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+
+
+
+
+
+/* ////////////////////////////////////////////////////////////////////// */
+.main-app-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;   
+}
+
+.change-container{
+    display: flex;
+    height: 100%;
+}
+
+.menu-container{
+    width: 240px;
+    padding: 5px 18px;
+    border-right:4px solid #384256 ;
+}
+
+.content-container{
+    padding: 5px 18px;
+    flex: 1;
+    width: 100%;
+}

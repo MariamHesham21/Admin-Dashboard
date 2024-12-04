@@ -1,0 +1,85 @@
+.navbar-container{
+    width: 100%;
+    padding: 16px 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-container{
+
+}
+
+.icons-container{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.icons-container .navbar-icon{
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+}
+.icons-container .notification-icon-container{
+    position: relative;
+}
+.icons-container .notification-icon-container span{
+    background-color: brown;
+    color: white;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: -11px;
+    right: -11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.icons-container .user-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.icons-container .user-container .user-img-navbar{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover; 
+    overflow: hidden;
+}
+.icons-container .user-container span{
+    margin-top:6px ;
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+
+@media (max-width: 580px){
+    .navbar-container{
+        padding: 16px 6px;
+    }
+    .logo-container{
+        font-size: 15px !important;
+    }
+    .icons-container{
+        gap: 12px;
+    }
+    .icons-container .user-container .user-img-navbar{
+        width: 26px;
+        height: 26px;
+    }
+    .icons-container .user-container span{
+        font-size: 14px;
+    }
+    .icons-container .notification-icon-container span{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 480px){
+
+}

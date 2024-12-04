@@ -1,0 +1,29 @@
+.footer-container{
+    width: 100%;
+    padding: 16px 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.footer-container span:first-child{
+    font-size: 15px;
+    font-weight: 600;
+}
+.footer-container span:last-child{
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 580px){
+    .footer-container{
+        padding: 16px 6px;
+        flex-wrap: wrap;
+        gap: 6px;
+    }
+    .footer-container span:first-child{
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+}
